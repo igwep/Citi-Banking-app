@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your CSS file */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Hide scrollbars in Webkit browsers */
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* Hide scrollbars in Internet Explorer */
+    scrollbar-width: none;  /* Hide scrollbars in Firefox */
+  }
+  
+  @keyframes floating {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .floating-animation {
+    animation: floating 6s ease-in-out infinite;
+  }
+  
