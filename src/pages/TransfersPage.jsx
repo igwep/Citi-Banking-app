@@ -11,9 +11,9 @@ import { db } from "../../Firebase"
 const mockBankData = [
   {
     bankName: "Bank of America",
-    routineNumber: "021000322",
-    accountNumber: "1234567890",
-    fullName: "John Doe",
+    routineNumber: "026009593",
+    accountNumber: "39400883526",
+    fullName: "Craig power",
     logo: "/Svg/bankofamerica-icon.svg", // Example logo URL
   },
   {
