@@ -24,7 +24,7 @@ export const ProfilePicture = () => {
     <div className="relative md:hidden  flex flex-col items-center justify-center -mt-16">
       <div className="w-24 h-24 border-2 rounded-full shadow-lg flex justify-center items-center">
         <img
-          src="/Image/new.jpg"
+          src="/Image/newProf.jpg"
           alt="Profile"
           className="w-24 h-24 rounded-full object-cover"
         />
